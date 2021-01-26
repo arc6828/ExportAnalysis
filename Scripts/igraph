@@ -1,0 +1,4 @@
+#!C:\Users\home\Documents\GitHub\ExportAnalysis\Scripts\python.exe
+# EASY-INSTALL-SCRIPT: 'python-igraph==0.8.3','igraph'
+__requires__ = 'python-igraph==0.8.3'
+__import__('pkg_resources').run_script('python-igraph==0.8.3', 'igraph')

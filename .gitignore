@@ -1,1 +1,2 @@
-Lib/site-packages/*
+Lib/site-packages/*/**
+data/zebrafish.h5ad
