@@ -1,2 +1,4 @@
 Lib/site-packages/*/**
-data/zebrafish.h5ad
+data/*
+html_hs2/*
+html_hs4/*

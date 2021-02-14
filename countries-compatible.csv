@@ -1,0 +1,223 @@
+name,iso_code,iso_name,parentCode,parentName
+Afghanistan,AF,Afghanistan,13,South Asia
+Albania,AL,Albania,6,East Europe & Central Asia
+Algeria,DZ,Algeria,11,Northern Africa
+American Samoa,AS,American Samoa,12,Pacific
+Andorra,AD,Andorra,4,EU & West Europe
+Angola,AO,Angola,14,Southern Africa
+Anguilla,AI,Anguilla,2,Caribbean
+Antigua and Barbuda,AG,Antigua and Barbuda,2,Caribbean
+Argentina,AR,Argentina,8,Latin America
+Armenia,AM,Armenia,6,East Europe & Central Asia
+Aruba,AW,Aruba,2,Caribbean
+Australia,AU,Australia,12,Pacific
+Austria,AT,Austria,4,EU & West Europe
+Azerbaijan,AZ,Azerbaijan,6,East Europe & Central Asia
+Bahamas,BS,Bahamas,2,Caribbean
+Bahrain,BH,Bahrain,9,Middle East
+Bangladesh,BD,Bangladesh,13,South Asia
+Barbados,BB,Barbados,2,Caribbean
+Belarus,BY,Belarus,6,East Europe & Central Asia
+Belgium,BE,Belgium,4,EU & West Europe
+Belize,BZ,Belize,2,Caribbean
+Benin,BJ,Benin,15,Western Africa
+Bermuda,BM,Bermuda,10,North America
+Bhutan,BT,Bhutan,13,South Asia
+"Bolivia, Plurinational State of",BO,Bolivia,8,Latin America
+Bosnia and Herzegovina,BA,Bosnia and Herzegovina,6,East Europe & Central Asia
+Botswana,BW,Botswana,14,Southern Africa
+Brazil,BR,Brazil,8,Latin America
+British Indian Ocean Territory,IO,British Indian Ocean Territory,13,South Asia
+British Virgin Islands,VG,British Virgin Islands,2,Caribbean
+Brunei Darussalam,BN,Brunei,1,ASEAN
+Bulgaria,BG,Bulgaria,4,EU & West Europe
+Burkina Faso,BF,Burkina Faso,15,Western Africa
+Burundi,BI,Burundi,3,Central Africa
+Cabo Verde,CV,Cape Verde,15,Western Africa
+Cambodia,KH,Cambodia,1,ASEAN
+Cameroon,CM,Cameroon,3,Central Africa
+Canada,CA,Canada,10,North America
+Cayman Islands,KY,Cayman Islands,2,Caribbean
+Central African Republic,CF,Central African Republic,3,Central Africa
+Chad,TD,Chad,3,Central Africa
+Chile,CL,Chile,8,Latin America
+China,CN,China,5,East Asia
+Christmas Island,CX,Christmas Island,12,Pacific
+Cocos (Keeling) Islands,CC,Cocos Islands,12,Pacific
+Colombia,CO,Colombia,8,Latin America
+Comoros,KM,Comoros,7,Eastern Africa
+Congo,CG,Republic of the Congo,3,Central Africa
+"Congo, Democratic Republic of the",CD,Democratic Republic of the Congo,3,Central Africa
+Cook Islands,CK,Cook Islands,12,Pacific
+Costa Rica,CR,Costa Rica,8,Latin America
+Côte d'Ivoire,CI,Ivory Coast,15,Western Africa
+Croatia,HR,Croatia,4,EU & West Europe
+Cuba,CU,Cuba,2,Caribbean
+Curaçao,CW,Curacao,2,Caribbean
+Cyprus,CY,Cyprus,4,EU & West Europe
+Czechia,CZ,Czech Republic,4,EU & West Europe
+Denmark,DK,Denmark,4,EU & West Europe
+Djibouti,DJ,Djibouti,7,Eastern Africa
+Dominica,DM,Dominica,2,Caribbean
+Dominican Republic,DO,Dominican Republic,2,Caribbean
+Ecuador,EC,Ecuador,8,Latin America
+Egypt,EG,Egypt,11,Northern Africa
+El Salvador,SV,El Salvador,8,Latin America
+Equatorial Guinea,GQ,Equatorial Guinea,3,Central Africa
+Eritrea,ER,Eritrea,7,Eastern Africa
+Estonia,EE,Estonia,4,EU & West Europe
+Eswatini,SZ,Swaziland,14,Southern Africa
+Ethiopia,ET,Ethiopia,7,Eastern Africa
+Falkland Islands (Malvinas),FK,Falkland Islands,8,Latin America
+Faroe Islands,FO,Faroe Islands,4,EU & West Europe
+Fiji,FJ,Fiji,12,Pacific
+Finland,FI,Finland,4,EU & West Europe
+France,FR,France,4,EU & West Europe
+French Polynesia,PF,French Polynesia,12,Pacific
+Gabon,GA,Gabon,3,Central Africa
+Gambia,GM,Gambia,15,Western Africa
+Georgia,GE,Georgia,6,East Europe & Central Asia
+Germany,DE,Germany,4,EU & West Europe
+Ghana,GH,Ghana,15,Western Africa
+Gibraltar,GI,Gibraltar,4,EU & West Europe
+Greece,GR,Greece,4,EU & West Europe
+Greenland,GL,Greenland,10,North America
+Grenada,GD,Grenada,2,Caribbean
+Guatemala,GT,Guatemala,8,Latin America
+Guinea,GN,Guinea,15,Western Africa
+Guinea-Bissau,GW,Guinea-Bissau,15,Western Africa
+Guyana,GY,Guyana,2,Caribbean
+Haiti,HT,Haiti,2,Caribbean
+Honduras,HN,Honduras,8,Latin America
+Hong Kong SAR,HK,Hong Kong,5,East Asia
+Hungary,HU,Hungary,4,EU & West Europe
+Iceland,IS,Iceland,4,EU & West Europe
+India,IN,India,13,South Asia
+Indonesia,ID,Indonesia,1,ASEAN
+"Iran, Islamic Republic of",IR,Iran,9,Middle East
+Iraq,IQ,Iraq,9,Middle East
+Ireland,IE,Ireland,4,EU & West Europe
+Israel,IL,Israel,9,Middle East
+Italy,IT,Italy,4,EU & West Europe
+Jamaica,JM,Jamaica,2,Caribbean
+Japan,JP,Japan,5,East Asia
+Jordan,JO,Jordan,9,Middle East
+Kazakhstan,KZ,Kazakhstan,6,East Europe & Central Asia
+Kenya,KE,Kenya,7,Eastern Africa
+Kiribati,KI,Kiribati,12,Pacific
+"Korea, Democratic People's Republic of",KP,North Korea,5,East Asia
+"Korea, Republic of",KR,South Korea,5,East Asia
+Kuwait,KW,Kuwait,9,Middle East
+Kyrgyzstan,KG,Kyrgyzstan,6,East Europe & Central Asia
+Lao People's Democratic Republic,LA,Laos,1,ASEAN
+Latvia,LV,Latvia,4,EU & West Europe
+Lebanon,LB,Lebanon,9,Middle East
+Lesotho,LS,Lesotho,14,Southern Africa
+Liberia,LR,Liberia,15,Western Africa
+Libya,LY,Libya,11,Northern Africa
+Lithuania,LT,Lithuania,4,EU & West Europe
+Luxembourg,LU,Luxembourg,4,EU & West Europe
+"Macao, China",MO,Macau,5,East Asia
+"Macedonia, North",MK,Macedonia,6,East Europe & Central Asia
+Madagascar,MG,Madagascar,7,Eastern Africa
+Malawi,MW,Malawi,14,Southern Africa
+Malaysia,MY,Malaysia,1,ASEAN
+Maldives,MV,Maldives,13,South Asia
+Mali,ML,Mali,15,Western Africa
+Malta,MT,Malta,4,EU & West Europe
+Marshall Islands,MH,Marshall Islands,12,Pacific
+Mauritania,MR,Mauritania,11,Northern Africa
+Mauritius,MU,Mauritius,7,Eastern Africa
+Mexico,MX,Mexico,8,Latin America
+"Micronesia, Federated States of",FM,Micronesia,12,Pacific
+"Moldova, Republic of",MD,Moldova,6,East Europe & Central Asia
+Mongolia,MN,Mongolia,5,East Asia
+Montenegro,ME,Montenegro,6,East Europe & Central Asia
+Montserrat,MS,Montserrat,2,Caribbean
+Morocco,MA,Morocco,11,Northern Africa
+Mozambique,MZ,Mozambique,14,Southern Africa
+Myanmar,MM,Myanmar,1,ASEAN
+Namibia,NA,Namibia,14,Southern Africa
+Nauru,NR,Nauru,12,Pacific
+Nepal,NP,Nepal,13,South Asia
+Netherlands,NL,Netherlands,4,EU & West Europe
+New Caledonia,NC,New Caledonia,12,Pacific
+New Zealand,NZ,New Zealand,12,Pacific
+Nicaragua,NI,Nicaragua,8,Latin America
+Niger,NE,Niger,15,Western Africa
+Nigeria,NG,Nigeria,15,Western Africa
+Niue,NU,Niue,12,Pacific
+Northern Mariana Islands,MP,Northern Mariana Islands,12,Pacific
+Norway,NO,Norway,4,EU & West Europe
+Oman,OM,Oman,9,Middle East
+Pakistan,PK,Pakistan,13,South Asia
+Palau,PW,Palau,12,Pacific
+"Palestine, State of",PS,Palestine,9,Middle East
+Panama,PA,Panama,8,Latin America
+Papua New Guinea,PG,Papua New Guinea,12,Pacific
+Paraguay,PY,Paraguay,8,Latin America
+Peru,PE,Peru,8,Latin America
+Philippines,PH,Philippines,1,ASEAN
+Pitcairn,PN,Pitcairn,12,Pacific
+Poland,PL,Poland,4,EU & West Europe
+Portugal,PT,Portugal,4,EU & West Europe
+Qatar,QA,Qatar,9,Middle East
+Romania,RO,Romania,4,EU & West Europe
+Russian Federation,RU,Russia,6,East Europe & Central Asia
+Rwanda,RW,Rwanda,7,Eastern Africa
+Saint Helena,SH,Saint Helena,15,Western Africa
+Saint Kitts and Nevis,KN,Saint Kitts and Nevis,2,Caribbean
+Saint Lucia,LC,Saint Lucia,2,Caribbean
+Saint Vincent and the Grenadines,VC,Saint Vincent and the Grenadines,2,Caribbean
+Samoa,WS,Samoa,12,Pacific
+Sao Tome and Principe,ST,Sao Tome and Principe,3,Central Africa
+Saudi Arabia,SA,Saudi Arabia,9,Middle East
+Senegal,SN,Senegal,15,Western Africa
+Serbia,RS,Serbia,6,East Europe & Central Asia
+Seychelles,SC,Seychelles,7,Eastern Africa
+Sierra Leone,SL,Sierra Leone,15,Western Africa
+Singapore,SG,Singapore,1,ASEAN
+Sint Maarten (Dutch part),SX,Sint Maarten,2,Caribbean
+Slovakia,SK,Slovakia,4,EU & West Europe
+Slovenia,SI,Slovenia,4,EU & West Europe
+Solomon Islands,SB,Solomon Islands,12,Pacific
+Somalia,SO,Somalia,7,Eastern Africa
+South Africa,ZA,South Africa,14,Southern Africa
+South Sudan,SS,South Sudan,7,Eastern Africa
+Spain,ES,Spain,4,EU & West Europe
+Sri Lanka,LK,Sri Lanka,13,South Asia
+St. Pierre and Miquelon,PM,Saint Pierre and Miquelon,10,North America
+Sudan,SD,Sudan,7,Eastern Africa
+Suriname,SR,Suriname,2,Caribbean
+Sweden,SE,Sweden,4,EU & West Europe
+Switzerland,CH,Switzerland,4,EU & West Europe
+Syrian Arab Republic,SY,Syria,9,Middle East
+"Taipei, Chinese",TW,Taiwan,5,East Asia
+Tajikistan,TJ,Tajikistan,6,East Europe & Central Asia
+"Tanzania, United Republic of",TZ,Tanzania,7,Eastern Africa
+Thailand,TH,Thailand,1,ASEAN
+Timor-Leste,TL,East Timor,12,Pacific
+Togo,TG,Togo,15,Western Africa
+Tokelau,TK,Tokelau,12,Pacific
+Tonga,TO,Tonga,12,Pacific
+Trinidad and Tobago,TT,Trinidad and Tobago,2,Caribbean
+Tunisia,TN,Tunisia,11,Northern Africa
+Turkey,TR,Turkey,9,Middle East
+Turkmenistan,TM,Turkmenistan,6,East Europe & Central Asia
+Turks and Caicos Islands,TC,Turks and Caicos Islands,2,Caribbean
+Tuvalu,TV,Tuvalu,12,Pacific
+Uganda,UG,Uganda,7,Eastern Africa
+Ukraine,UA,Ukraine,6,East Europe & Central Asia
+United Arab Emirates,AE,United Arab Emirates,9,Middle East
+United Kingdom,GB,United Kingdom,4,EU & West Europe
+United States of America,US,United States,10,North America
+Uruguay,UY,Uruguay,8,Latin America
+Uzbekistan,UZ,Uzbekistan,6,East Europe & Central Asia
+Vanuatu,VU,Vanuatu,12,Pacific
+"Venezuela, Bolivarian Republic of",VE,Venezuela,8,Latin America
+Viet Nam,VN,Vietnam,1,ASEAN
+Wallis and Futuna Islands,WF,Wallis and Futuna,12,Pacific
+Western Sahara,EH,Western Sahara,11,Northern Africa
+Yemen,YE,Yemen,9,Middle East
+Zambia,ZM,Zambia,14,Southern Africa
+Zimbabwe,ZW,Zimbabwe,14,Southern Africa
