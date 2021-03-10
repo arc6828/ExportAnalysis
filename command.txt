@@ -1,3 +1,8 @@
 pip freeze > requirements.txt
 
-pip install -r requirements.txt
+Usage
+1. Clone : git clone https://github.com/arc6828/ExportAnalysis
+2. Python Environment : Scripts\activation
+3. Pakage Installation : pip install -r requirements.txt
+4. jupyter notebook
+5. See Example at : MyVectorField
