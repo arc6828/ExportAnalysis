@@ -49,9 +49,11 @@ def dynamoProcess(adata) :
     return adata
 
 def dynamoPlot(adata, group) :
-    dyn.pl.streamline_plot(adata, color=[group], basis='umap', show_legend='on data', show_arrowed_spines=True,cut_off_velocity=False)
+    temp_adata = adata.copy()
+    dyn.pl.streamline_plot(temp_adata, color=[group], basis='umap', show_legend='on data', show_arrowed_spines=True,cut_off_velocity=False)
 def dynamoLargePlot(adata, group) :
-    dyn.pl.streamline_plot(adata, color=[group], basis='umap', show_legend='on data', show_arrowed_spines=True,cut_off_velocity=False,figsize=[12,8])
+    temp_adata = adata.copy()
+    dyn.pl.streamline_plot(temp_adata, color=[group], basis='umap', show_legend='on data', show_arrowed_spines=True,cut_off_velocity=False,figsize=[12,8])
    
 def concatDataFrame(df1, df2):
     pieces = {'latest': df1, 'oldest': df2}
