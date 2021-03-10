@@ -1,4 +1,5 @@
 Lib/site-packages/*/**
-data/*
+data/export-hs4.csv
+data/zebrafish.h5ad
 html_hs2/*
 html_hs4/*
