@@ -19,7 +19,16 @@ def removeOutlierObservation(a,b, obs):
     obs = obs.loc[intersect_index]
     return [a,b,obs]
 
-def createAnnotationData(a,b, obs, var) :
+def removeOutlierObservationExtra(a, obs):
+    intersect_index = list( set(list(a.index)) & set(list(obs.index)) )
+    intersect_index.sort()
+    intersect_index
+
+    a = a.loc[intersect_index]
+    obs = obs.loc[intersect_index]
+    return [a,obs]
+
+def createAnnotationData(a,b, obs, var, filter=True) :
     # intersect_index = list( set(list(a.index)) & set(list(b.index)) & set(list(obs.index)) )
     # intersect_index.sort()
     # intersect_index
@@ -27,7 +36,8 @@ def createAnnotationData(a,b, obs, var) :
     # a = a.loc[intersect_index]
     # b = b.loc[intersect_index]
     # obs = obs.loc[intersect_index]
-    [a,b,obs] = removeOutlierObservation(a,b, obs)
+    if filter :
+        [a,b,obs] = removeOutlierObservation(a,b, obs)
     
     layers = {
         "spliced" : a.to_numpy(),
@@ -48,16 +58,66 @@ def dynamoProcess(adata) :
     dyn.tl.cell_velocities(adata)
     return adata
 
-def dynamoPlot(adata, group) :
+def dynamoProcess2(adata) :
+    # print("555")
+    # print("hello")
+    dyn.pp.recipe_monocle(adata)
+    dyn.tl.dynamics(adata, model='stochastic', cores=8)
+    dyn.tl.reduceDimension(adata)
+    dyn.tl.cell_velocities(adata)
+    return adata
+
+def dynamoPlot(adata, group, filter_key="", filter_values=[]) :
     temp_adata = adata.copy()
+    if len(filter_values) > 0 :
+        print()
+        # List Region
+        # temp_adata.obs['parentName'].drop_duplicates().to_numpy()
+        temp_adata.obs['custom_'+group] = temp_adata.obs[group] 
+        temp_adata.obs['custom_'+group] = temp_adata.obs.apply(lambda x: x[group]*(x[filter_key] in filter_values), axis=1)
+        group = 'custom_'+group
+
+
+
     dyn.pl.streamline_plot(temp_adata, color=[group], basis='umap', show_legend='on data', show_arrowed_spines=True,cut_off_velocity=False)
-def dynamoLargePlot(adata, group) :
+    
+
+def dynamoLargePlot(adata, group, filter_key="", filter_values=[]) :
     temp_adata = adata.copy()
+    if len(filter_values) > 0 :
+        print()
+        # List Region
+        # temp_adata.obs['parentName'].drop_duplicates().to_numpy()
+        temp_adata.obs['custom_'+group] = temp_adata.obs[group] 
+        temp_adata.obs['custom_'+group] = temp_adata.obs.apply(lambda x: x[group]*(x[filter_key] in filter_values), axis=1)
+        group = 'custom_'+group
     dyn.pl.streamline_plot(temp_adata, color=[group], basis='umap', show_legend='on data', show_arrowed_spines=True,cut_off_velocity=False,figsize=[12,8])
-   
+
+def dynamoVeryLargePlot(adata, group, filter_key="", filter_values=[]) :
+    temp_adata = adata.copy()
+    if len(filter_values) > 0 :
+        print()
+        # List Region
+        # temp_adata.obs['parentName'].drop_duplicates().to_numpy()
+        temp_adata.obs['custom_'+group] = temp_adata.obs[group] 
+        temp_adata.obs['custom_'+group] = temp_adata.obs.apply(lambda x: x[group]*(x[filter_key] in filter_values), axis=1)
+        group = 'custom_'+group
+    dyn.pl.streamline_plot(temp_adata, color=[group], basis='umap', show_legend='on data', show_arrowed_spines=True,cut_off_velocity=False,figsize=[24,16])
+ 
+
 def concatDataFrame(df1, df2):
     pieces = {'latest': df1, 'oldest': df2}
     df_piece = pd.concat(pieces)
+    # df_piece = df_piece.reset_index()
+    # df_piece["key"] = df_piece["level_0"] + "_" + df_piece["exporter"]
+    # df_piece = df_piece.drop(['level_0'], axis=1)
+    # df_piece = df_piece.drop(['exporter'], axis=1)
+    # df_piece = df_piece.set_index(['key'])
+    return df_piece
+
+def concatDataFrameExtra(dfs):
+    # pieces = {'latest': df1, 'oldest': df2}
+    df_piece = pd.concat(dfs)
     # df_piece = df_piece.reset_index()
     # df_piece["key"] = df_piece["level_0"] + "_" + df_piece["exporter"]
     # df_piece = df_piece.drop(['level_0'], axis=1)
