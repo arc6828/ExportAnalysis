@@ -9,6 +9,25 @@ def config() :
     warnings.filterwarnings('ignore')
     dyn.get_all_dependencies_version()
 
+def removeOutlier(X_list):
+    #CHECK FIRST
+    if len(X_list) == 0:
+        return []
+
+    #REMOVE DUPLICATE
+    intersect_index = set(list(X_list[0].index))
+    for df in X_list :
+        intersect_index = intersect_index & set(list(df.index))      
+    intersect_index = list(intersect_index)
+    intersect_index.sort()
+    intersect_index
+
+    #PACK ARRAY
+    X_list_new = []
+    for df in X_list :
+        X_list_new.append(df.loc[intersect_index])
+    return X_list_new
+
 def removeOutlierObservation(a,b, obs):
     intersect_index = list( set(list(a.index)) & set(list(b.index)) & set(list(obs.index)) )
     intersect_index.sort()
@@ -27,6 +46,20 @@ def removeOutlierObservationExtra(a, obs):
     a = a.loc[intersect_index]
     obs = obs.loc[intersect_index]
     return [a,obs]
+
+def createAnnotationDataForVectorField(X_list, obs_list, var) :
+    X_all = pd.concat(X_list)
+    obs_all = pd.concat(obs_list)
+
+    layers = {
+        "spliced" : X_all.to_numpy(),
+        "unspliced" : X_all.to_numpy(),
+    }
+    adata = anndata.AnnData(X=X_all.to_numpy(), obs=obs_all,var=var, layers=layers)
+    return adata
+
+    # print("555")
+    # print("888")
 
 def createAnnotationData(a,b, obs, var, filter=True) :
     # intersect_index = list( set(list(a.index)) & set(list(b.index)) & set(list(obs.index)) )
