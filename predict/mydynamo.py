@@ -151,6 +151,13 @@ def createVectorField(adata) :
     adata3 = adata.copy()
     adata3.obsm['X_umap'] = v[0]
     adata3.obsm['velocity_umap'] = velocity_umap
+    adata3.uns['neighbors']['indices'] = np.split(adata2.uns['neighbors']['indices'],2)[0]
+    nrows = len(adata3.uns['neighbors']['indices'])
+    for i in range(nrows) : 
+        # adata3.uns['neighbors']['indices'][i] = adata3.uns['neighbors']['indices'][i][adata3.uns['neighbors']['indices'][i] >= nrows]
+        for j in range(len(adata3.uns['neighbors']['indices'][i])-2,-1,-1) :
+            if adata3.uns['neighbors']['indices'][i][j] >= nrows : 
+                adata3.uns['neighbors']['indices'][i][j] = adata3.uns['neighbors']['indices'][i][j+1]
 
     return adata3
 
@@ -165,6 +172,7 @@ def knnToVectorField(adata) :
     return adata4
 
 def averageVectorField(data,indices ):
+    indices = indices[indices<len(data)]
     filter_v = np.take(data, indices, axis=0)    
     return  np.average(filter_v,axis=0)
 
